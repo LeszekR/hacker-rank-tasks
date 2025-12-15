@@ -1,4 +1,4 @@
-# hacker_rank_excercises
+# hacker_rank_exercises
 
 A new Flutter project.
 

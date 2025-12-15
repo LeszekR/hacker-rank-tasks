@@ -7,7 +7,7 @@ int findPeakIndex(int countsCount, List<int> counts) {
   int iLeft = 0;
   int iRight = countsCount - 1;
   int iMid;
-  int num, numLeft, numRight;
+  int num;
 
   if (countsCount == 0) return - 1;
   if (countsCount == 1) return 0;

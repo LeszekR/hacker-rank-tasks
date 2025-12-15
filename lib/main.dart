@@ -6,6 +6,7 @@ import 'tasks/search_rotated_timestamps.dart';
 import 'tasks/find_peak_index.dart';
 import 'tasks/subarrays_with_sum_and_max.dart';
 import 'package:hacker_rank_excercises/tasks/find_smallest_substring_window.dart';
+import 'package:hacker_rank_excercises/tasks/maximum_sum.dart';
 
 void main() {
   // print(testSearchRotatedTimestamps());
@@ -13,6 +14,7 @@ void main() {
   // testMaxDistinctSubstringLengthInSessions();
   // testCountSubarraysWithSumAndMaxAtMost();
   // testFindSmallestSubstringWindow();
-  testMatrixRotation();
+  // testMatrixRotation();
+  testMaximumSum();
   exit(1);
 }

@@ -8,18 +8,20 @@ import 'package:hacker_rank_exercises/tasks/009_find_smallest_substring_window.d
 import 'package:hacker_rank_exercises/tasks/010_max_distinct_substring_in_sessions.dart';
 import 'package:hacker_rank_exercises/tasks/011_matrix_rotation.dart';
 import 'package:hacker_rank_exercises/tasks/012_gene_benefits.dart';
-import 'package:hacker_rank_exercises/tasks/max_area_under_histogram_with_one_removal.dart';
+import 'package:hacker_rank_exercises/tasks/014_count_stable_performance_intervals.dart';
+import 'package:hacker_rank_exercises/tasks/013_max_area_under_histogram_with_one_removal.dart';
 
 
 void main() {
   // print(testSearchRotatedTimestamps());
   // print(testPeakIndex());
   // testMaxDistinctSubstringLengthInSessions();
-  // testCountSubarraysWithSumAndMaxAtMost();
+  // testCountSubarraysWithSumAndMaxAtMost();cd
   // testFindSmallestSubstringWindow();
   // testMatrixRotation();
   // testMaximumSum();
   // testInspectAllSamples();
-  testComputeMaxRectangleAreaWithOneRemoval();
+  // testComputeMaxRectangleAreaWithOneRemoval();
+  testCountValidSubarrays();
   exit(1);
 }

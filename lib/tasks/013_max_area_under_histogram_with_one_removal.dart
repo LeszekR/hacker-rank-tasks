@@ -2,6 +2,8 @@ import 'dart:math';
 
 void testComputeMaxRectangleAreaWithOneRemoval() {
   print('20: ${computeMaxRectangleAreaWithOneRemoval([5, 5, 1, 5, 5])}');
+  print('42: ${computeMaxRectangleAreaWithOneRemoval([5, 21, 1, 30, 5])}');
+  print('15: ${computeMaxRectangleAreaWithOneRemoval([1, 3, 5, 6, 8])}');
 }
 
 int computeMaxRectangleAreaWithOneRemoval(List<int> heights) {

@@ -10,6 +10,7 @@ import 'package:hacker_rank_exercises/tasks/011_matrix_rotation.dart';
 import 'package:hacker_rank_exercises/tasks/012_gene_benefits.dart';
 import 'package:hacker_rank_exercises/tasks/014_count_stable_performance_intervals.dart';
 import 'package:hacker_rank_exercises/tasks/013_max_area_under_histogram_with_one_removal.dart';
+import 'package:hacker_rank_exercises/tasks/015_maximize_profit_with_deadlines_and_servers.dart';
 
 
 void main() {
@@ -22,6 +23,7 @@ void main() {
   // testMaximumSum();
   // testInspectAllSamples();
   // testComputeMaxRectangleAreaWithOneRemoval();
-  testCountValidSubarrays();
+  // testCountValidSubarrays();
+  testMaximizeParallelTaskProfit();
   exit(1);
 }

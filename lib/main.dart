@@ -11,6 +11,7 @@ import 'package:hacker_rank_exercises/tasks/012_gene_benefits.dart';
 import 'package:hacker_rank_exercises/tasks/014_count_stable_performance_intervals.dart';
 import 'package:hacker_rank_exercises/tasks/013_max_area_under_histogram_with_one_removal.dart';
 import 'package:hacker_rank_exercises/tasks/015_maximize_profit_with_deadlines_and_servers.dart';
+import 'package:hacker_rank_exercises/tasks/016_smallest_substring_containing_all_patterns.dart';
 
 
 void main() {
@@ -24,6 +25,7 @@ void main() {
   // testInspectAllSamples();
   // testComputeMaxRectangleAreaWithOneRemoval();
   // testCountValidSubarrays();
-  testMaximizeParallelTaskProfit();
+  // testMaximizeParallelTaskProfit();
+  testSmallestSubstringContainingAllPatterns();
   exit(1);
 }

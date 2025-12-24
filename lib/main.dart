@@ -12,6 +12,7 @@ import 'package:hacker_rank_exercises/tasks/014_count_stable_performance_interva
 import 'package:hacker_rank_exercises/tasks/013_max_area_under_histogram_with_one_removal.dart';
 import 'package:hacker_rank_exercises/tasks/015_maximize_profit_with_deadlines_and_servers.dart';
 import 'package:hacker_rank_exercises/tasks/016_smallest_substring_containing_all_patterns.dart';
+import 'package:hacker_rank_exercises/tasks/017_target_index_search.dart';
 
 
 void main() {
@@ -26,6 +27,7 @@ void main() {
   // testComputeMaxRectangleAreaWithOneRemoval();
   // testCountValidSubarrays();
   // testMaximizeParallelTaskProfit();
-  testSmallestSubstringContainingAllPatterns();
+  // testSmallestSubstringContainingAllPatterns();
+  testBinarySearch();
   exit(1);
 }

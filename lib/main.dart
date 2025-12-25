@@ -13,8 +13,9 @@ import 'package:hacker_rank_exercises/tasks/013_max_area_under_histogram_with_on
 import 'package:hacker_rank_exercises/tasks/015_maximize_profit_with_deadlines_and_servers.dart';
 import 'package:hacker_rank_exercises/tasks/016_smallest_substring_containing_all_patterns.dart';
 import 'package:hacker_rank_exercises/tasks/017_target_index_search.dart';
-import 'package:hacker_rank_exercises/tasks/custom_fibonacci_sequence.dart';
-import 'package:hacker_rank_exercises/tasks/find_first_occurrence.dart';
+import 'package:hacker_rank_exercises/tasks/019_custom_fibonacci_sequence.dart';
+import 'package:hacker_rank_exercises/tasks/018_find_first_occurrence.dart';
+import 'package:hacker_rank_exercises/tasks/019_lexogr_letter_combination_of_phone_digits.dart';
 
 
 void main() {
@@ -32,6 +33,7 @@ void main() {
   // testSmallestSubstringContainingAllPatterns();
   // testBinarySearch();
   // testFindFirstOccurrence();
-  testCustomFibonacci();
+  // testCustomFibonacci();
+  testLexographicalLetterCombinationOfPhoneDigits();
   exit(1);
 }

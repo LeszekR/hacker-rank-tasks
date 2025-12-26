@@ -17,6 +17,7 @@ import 'package:hacker_rank_exercises/tasks/019_custom_fibonacci_sequence.dart';
 import 'package:hacker_rank_exercises/tasks/018_find_first_occurrence.dart';
 import 'package:hacker_rank_exercises/tasks/019_lexogr_letter_combination_of_phone_digits.dart';
 import 'package:hacker_rank_exercises/tasks/020_generate_angle_bracket_sequences.dart';
+import 'package:hacker_rank_exercises/tasks/021_place_n_cameras_on_blocked_grid.dart';
 
 
 void main() {
@@ -36,6 +37,7 @@ void main() {
   // testFindFirstOccurrence();
   // testCustomFibonacci();
   // testLexographicalLetterCombinationOfPhoneDigits();
-  testGenerateAngleBracketSequences();
+  // testGenerateAngleBracketSequences();
+  testCanPlaceSecurityCameras();
   exit(1);
 }

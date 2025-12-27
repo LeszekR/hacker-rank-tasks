@@ -1,17 +1,20 @@
 void testCanPlaceSecurityCameras() {
+  // canPlaceSecurityCameras(0, 3, 3);
   canPlaceSecurityCameras(0, 4, 4);
 }
 
-// TODO incorrect - fix it
 void canPlaceSecurityCameras(int N, int nRows, int nColumns) {
   final List<_State> stack = <_State>[];
 
   List<List<int>> grid = _makeGrid(nRows, nColumns);
-  stack.add(_State(grid));
+  var initState = _State(grid);
+  initState.row = -1;
+  stack.add(initState);
 
-  void dfs(int row) {
+  void dfs() {
     while (stack.isNotEmpty) {
       final lastState = stack.removeLast();
+      final int row = lastState.row +1;
 
       if (lastState.isFull) {
         print(lastState.grid.toString());
@@ -19,17 +22,16 @@ void canPlaceSecurityCameras(int N, int nRows, int nColumns) {
         for (int col = 0; col < nColumns; col++) {
           final nextState = _State.from(lastState);
           nextState.row = row;
-          nextState.col = col;
-          nextState.grid[row][col] = 1;
+          nextState.grid[row][col] += 1;
           stack.add(nextState);
         }
         print ('=============================================================');
-        dfs(lastState.row + 1);
+        dfs();
       }
     }
   }
 
-  dfs(0);
+  dfs();
 }
 
 List<List<int>> _makeGrid(int nRows, int nColumns) {
@@ -51,7 +53,6 @@ void _copyGrid(List<List<int>> source, List<List<int>> target){
 class _State {
   final List<List<int>> grid;
   int row = 0;
-  int col = 0;
 
   bool get isFull => (row == grid.length - 1);
 
@@ -60,6 +61,8 @@ class _State {
   factory _State.from(_State prev) {
     var grid = _makeGrid(prev.grid.length, prev.grid[0].length);
     _copyGrid(prev.grid, grid);
-    return _State(grid);
+    var next = _State(grid);
+    next.row = prev.row;
+    return next;
   }
 }

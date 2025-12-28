@@ -1,9 +1,9 @@
 void testCanPlaceSecurityCameras() {
   // canPlaceSecurityCameras(0, 3, 3);
-  canPlaceSecurityCameras(0, 4, 4);
+  canPlaceSecurityCameras1(0, 5, 5);
 }
 
-void canPlaceSecurityCameras(int N, int nRows, int nColumns) {
+void canPlaceSecurityCameras1(int N, int nRows, int nColumns) {
   final List<_State> stack = <_State>[];
 
   List<List<int>> grid = _makeGrid(nRows, nColumns);
@@ -17,7 +17,9 @@ void canPlaceSecurityCameras(int N, int nRows, int nColumns) {
       final int row = lastState.row +1;
 
       if (lastState.isFull) {
-        print(lastState.grid.toString());
+        if (_isCorrectCameraPlacement(lastState)) {
+          print(lastState.grid.toString());
+        }
       } else {
         for (int col = 0; col < nColumns; col++) {
           final nextState = _State.from(lastState);
@@ -32,6 +34,10 @@ void canPlaceSecurityCameras(int N, int nRows, int nColumns) {
   }
 
   dfs();
+}
+
+bool _isCorrectCameraPlacement(_State state) {
+  return true;
 }
 
 List<List<int>> _makeGrid(int nRows, int nColumns) {

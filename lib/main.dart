@@ -6,6 +6,7 @@ import 'package:hacker_rank_exercises/tasks/021_2_place_n_cameras_on_blocked_gri
 import 'package:hacker_rank_exercises/tasks/022_compare_bsts_for_equal_values_diff_structures.dart';
 import 'package:hacker_rank_exercises/tasks/024_poisonous_plants.dart';
 import 'package:hacker_rank_exercises/tasks/025_inorder_traversal.dart';
+import 'package:hacker_rank_exercises/tasks/026_height_of_binary_tree.dart';
 
 void main() {
   // print(testSearchRotatedTimestamps());
@@ -29,6 +30,7 @@ void main() {
   // testCanPlaceSecurityCameras2();
   // testVerifySameMultisetDifferentStructure();
   // testPoisonousPlants();
-  testInorderTraversal();
+  // testInorderTraversal();
+  testHeight();
   exit(1);
 }

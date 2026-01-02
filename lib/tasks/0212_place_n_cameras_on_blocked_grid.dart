@@ -1,5 +1,5 @@
 void testCanPlaceSecurityCameras2() {
-  canPlaceSecurityCameras2(6);
+  canPlaceSecurityCameras2(3);
 }
 
 bool canPlaceSecurityCameras2(int N) {

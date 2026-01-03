@@ -7,6 +7,7 @@ import 'package:hacker_rank_exercises/tasks/022_compare_bsts_for_equal_values_di
 import 'package:hacker_rank_exercises/tasks/024_poisonous_plants.dart';
 import 'package:hacker_rank_exercises/tasks/025_inorder_traversal.dart';
 import 'package:hacker_rank_exercises/tasks/026_height_of_binary_tree.dart';
+import 'package:hacker_rank_exercises/tasks/027_insert_into_binary_search_tree.dart';
 
 void main() {
   // print(testSearchRotatedTimestamps());
@@ -31,6 +32,7 @@ void main() {
   // testVerifySameMultisetDifferentStructure();
   // testPoisonousPlants();
   // testInorderTraversal();
-  testHeight();
+  // testHeight();
+  testInsert();
   exit(1);
 }

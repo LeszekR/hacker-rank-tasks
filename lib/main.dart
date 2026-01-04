@@ -10,6 +10,7 @@ import 'package:hacker_rank_exercises/tasks/026_height_of_binary_tree.dart';
 import 'package:hacker_rank_exercises/tasks/027_insert_into_binary_search_tree.dart';
 import 'package:hacker_rank_exercises/tasks/030_connected_cells_bfs.dart';
 import 'package:hacker_rank_exercises/tasks/030_connected_cells_dfs.dart';
+import 'package:hacker_rank_exercises/tasks/031_roads_and_libraries.dart';
 
 void main() {
   // print(testSearchRotatedTimestamps());
@@ -37,6 +38,7 @@ void main() {
   // testHeight();
   // testInsert();
   // testConnectedCellsBfs();
-  testConnectedCellsDfs();
+  // testConnectedCellsDfs();
+  testRoadsAndLibraries();
   exit(1);
 }

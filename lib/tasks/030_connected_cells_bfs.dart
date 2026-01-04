@@ -1,17 +1,17 @@
 import 'dart:collection';
 import 'dart:math';
 
-void testConnectedCells() {
+void testConnectedCellsBfs() {
   var matrix = [
     [1, 1, 0, 0],
     [0, 0, 1, 0],
     [0, 0, 0, 1],
     [1, 1, 0, 0],
   ];
-  print(connectedCells(matrix));
+  print(connectedCellsBfs(matrix));
 }
 
-int connectedCells(List<List<int>> matrix) {
+int connectedCellsBfs(List<List<int>> matrix) {
   int result = 0;
   int newResult;
   int n = matrix.length;

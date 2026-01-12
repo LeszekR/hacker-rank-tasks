@@ -11,6 +11,7 @@ import 'package:hacker_rank_exercises/tasks/027_insert_into_binary_search_tree.d
 import 'package:hacker_rank_exercises/tasks/030_connected_cells_bfs.dart';
 import 'package:hacker_rank_exercises/tasks/030_connected_cells_dfs.dart';
 import 'package:hacker_rank_exercises/tasks/031_roads_and_libraries.dart';
+import 'package:hacker_rank_exercises/tasks/033_two_pluses.dart';
 
 void main() {
   // print(testSearchRotatedTimestamps());
@@ -39,6 +40,7 @@ void main() {
   // testInsert();
   // testConnectedCellsBfs();
   // testConnectedCellsDfs();
-  testRoadsAndLibraries();
+  // testRoadsAndLibraries();
+  testTwoPluses();
   exit(1);
 }

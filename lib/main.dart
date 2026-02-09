@@ -12,6 +12,8 @@ import 'package:hacker_rank_exercises/tasks/030_connected_cells_bfs.dart';
 import 'package:hacker_rank_exercises/tasks/030_connected_cells_dfs.dart';
 import 'package:hacker_rank_exercises/tasks/031_roads_and_libraries.dart';
 import 'package:hacker_rank_exercises/tasks/033_two_pluses.dart';
+import 'package:hacker_rank_exercises/tasks/035_time_as_words.dart';
+import 'package:hacker_rank_exercises/tasks/037_greedy_florist.dart';
 
 void main() {
   // print(testSearchRotatedTimestamps());
@@ -41,6 +43,8 @@ void main() {
   // testConnectedCellsBfs();
   // testConnectedCellsDfs();
   // testRoadsAndLibraries();
-  testTwoPluses();
+  // testTwoPluses();
+  // testTimeInWords();
+  testFlowerPurchase();
   exit(1);
 }

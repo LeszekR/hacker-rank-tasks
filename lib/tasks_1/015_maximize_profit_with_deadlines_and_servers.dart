@@ -56,13 +56,13 @@ int maximizeParallelTaskProfit(int m, List<int> deadlines, List<int> profits) {
 //   _Task next;
 //   Heap heap = Heap(_profitComparator);
 //
-//   List<_Task> tasks = _makeTaskList(deadlines, profits);
+//   List<_Task> tasks_1 = _makeTaskList(deadlines, profits);
 //   deadlines = deadlines.toSet().toList();
 //   deadlines.sort(); // sort ascending - the last element is biggest
 //   int maxDeadline = deadlines[deadlines.length - 1];
 //
 //   for (int deadline = maxDeadline; deadline > 0; deadline--) {
-//     for (_Task task in tasks) {
+//     for (_Task task in tasks_1) {
 //       if (task.deadline == deadline) heap.push(task);
 //     }
 //     for (int j = 0; j < m && !heap.empty(); j++) {
@@ -74,9 +74,9 @@ int maximizeParallelTaskProfit(int m, List<int> deadlines, List<int> profits) {
 // }
 //
 // List<_Task> _makeTaskList(List<int> deadlines, List<int> profits) {
-//   List<_Task> tasks = [];
+//   List<_Task> tasks_1 = [];
 //   for (int i = 0; i < deadlines.length; i++) {
-//     tasks.add(_Task(profits[i], deadlines[i]));
+//     tasks_1.add(_Task(profits[i], deadlines[i]));
 //   }
-//   return tasks;
+//   return tasks_1;
 // }

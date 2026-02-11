@@ -29,22 +29,7 @@ String lexicographicalSmallestWithin(String A) {
     _updateStack(chars, stack, ch);
   }
 
-  // convert stack to string
-  final buffer = StringBuffer();
-  while (stack.isNotEmpty) {
-    ch = stack.removeLast();
-    buffer.write(ch);
-  }
-
-  return buffer.toString().split('').reversed.join();
-}
-
-class Char {
-  int remains = 1;
-  int required = 0;
-  int used = 0;
-
-  bool get full => used == required;
+  return stack.join();
 }
 
 void _updateStack(Map<String, Char> chars, List<String> stack, String ch) {
@@ -57,4 +42,12 @@ void _updateStack(Map<String, Char> chars, List<String> stack, String ch) {
     stack.add(ch);
     chars[ch]!.used++;
   }
+}
+
+class Char {
+  int remains = 1;
+  int required = 0;
+  int used = 0;
+
+  bool get full => used == required;
 }

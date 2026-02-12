@@ -16,6 +16,7 @@ import 'package:hacker_rank_exercises/tasks_1/035_time_as_words.dart';
 import 'package:hacker_rank_exercises/tasks_2/037_greedy_florist.dart';
 import 'package:hacker_rank_exercises/tasks_2/038_reverse_shuffle_merge.dart';
 import 'package:hacker_rank_exercises/tasks_2/039_abbreviation.dart';
+import 'package:hacker_rank_exercises/tasks_2/040_candies.dart';
 
 void main() {
   // print(testSearchRotatedTimestamps());
@@ -49,6 +50,8 @@ void main() {
   // testTimeInWords();
   // testFlowerPurchase();
   // testLexicographicalSmallestWithin();
-  testAbbreviation();
+  // testAbbreviation();
+  testCandies();
   exit(1);
+
 }

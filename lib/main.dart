@@ -17,6 +17,8 @@ import 'package:hacker_rank_exercises/tasks_2/037_greedy_florist.dart';
 import 'package:hacker_rank_exercises/tasks_2/038_reverse_shuffle_merge.dart';
 import 'package:hacker_rank_exercises/tasks_2/039_abbreviation.dart';
 import 'package:hacker_rank_exercises/tasks_2/040_candies.dart';
+import 'package:hacker_rank_exercises/tasks_2/041_max_array_sum.dart';
+import 'package:hacker_rank_exercises/tasks_2/042_special_string_again.dart';
 
 void main() {
   // print(testSearchRotatedTimestamps());
@@ -51,7 +53,9 @@ void main() {
   // testFlowerPurchase();
   // testLexicographicalSmallestWithin();
   // testAbbreviation();
-  testCandies();
+  // testCandies();
+  // testMaxArraySum();
+  testSpecialStrings();
   exit(1);
 
 }

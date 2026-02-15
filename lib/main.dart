@@ -19,6 +19,7 @@ import 'package:hacker_rank_exercises/tasks_2/039_abbreviation.dart';
 import 'package:hacker_rank_exercises/tasks_2/040_candies.dart';
 import 'package:hacker_rank_exercises/tasks_2/041_max_array_sum.dart';
 import 'package:hacker_rank_exercises/tasks_2/042_special_string_again.dart';
+import 'package:hacker_rank_exercises/tasks_2/043_commonChild.dart';
 
 void main() {
   // print(testSearchRotatedTimestamps());
@@ -55,7 +56,8 @@ void main() {
   // testAbbreviation();
   // testCandies();
   // testMaxArraySum();
-  testSpecialStrings();
+  // testSpecialStrings();
+  testCommonChild();
   exit(1);
 
 }

@@ -20,6 +20,7 @@ import 'package:hacker_rank_exercises/tasks_2/040_candies.dart';
 import 'package:hacker_rank_exercises/tasks_2/041_max_array_sum.dart';
 import 'package:hacker_rank_exercises/tasks_2/042_special_string_again.dart';
 import 'package:hacker_rank_exercises/tasks_2/043_commonChild.dart';
+import 'package:hacker_rank_exercises/tasks_2/044_swap_inversions.dart';
 
 void main() {
   // print(testSearchRotatedTimestamps());
@@ -57,7 +58,8 @@ void main() {
   // testCandies();
   // testMaxArraySum();
   // testSpecialStrings();
-  testCommonChild();
+  // testCommonChild();
+  testSwapInversions();
   exit(1);
 
 }
